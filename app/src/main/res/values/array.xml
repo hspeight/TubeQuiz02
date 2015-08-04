@@ -1,0 +1,31 @@
+<resources>
+
+    <string-array name="zone_entries">
+        <item name="all">All</item>
+        <item name="Zone1">1</item>
+        <item name="Zone2">2</item>
+        <item name="Zone3">3</item>
+    </string-array>
+
+    <string-array name="zone_values">
+        <item name="all">All</item>
+        <item name="Zone1">1</item>
+        <item name="Zone2">2</item>
+        <item name="Zone3">3</item>
+    </string-array>
+
+    <string-array name="multiselect_entries">
+        <item name="all">All</item>
+        <item name="bak">Bakerloo</item>
+        <item name="nor">Northern</item>
+        <item name="pic">Picadilly</item>
+    </string-array>
+
+    <string-array name="multiselect_values">
+        <item name="all">All</item>
+        <item name="bak">Bak</item>
+        <item name="nor">Nor</item>
+        <item name="pic">Pic</item>
+    </string-array>
+
+</resources>
