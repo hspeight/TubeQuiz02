@@ -6,7 +6,7 @@
         threefiftyprefs:checkAll="All"
         threefiftyprefs:separator="|"
         android:defaultValue="None"
-        android:key="zones!"
+        android:key="zones"
         android:title="@string/pref_setting_zones_to_include"
         android:dialogTitle="Select Zones"
         android:summary=""
