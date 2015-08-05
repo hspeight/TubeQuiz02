@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="linesQuizSelected">
+    android:onClick="linesQuizSelected"
+    android:background="@drawable/ghost_stations">
 
     <Button
         android:layout_width="wrap_content"
@@ -11,10 +12,9 @@
         android:background="@drawable/rectanglebg"
         android:id="@+id/linebutton"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="40dp"
         android:padding="10dp"
-        android:onClick="linesQuizSelected"
-        android:nestedScrollingEnabled="false" />
+        android:onClick="linesQuizSelected" />
 
     <Button
         android:layout_width="wrap_content"

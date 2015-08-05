@@ -7,4 +7,8 @@
     <string name="pref_setting_zones_to_include">Choose which zones to include</string>
     <string name="action_search">Search</string>
     <string name="title_activity_quiz_options">QuizOptions</string>
+    <string name="title_activity_quiz_selecta">QuizSelecta</string>
+    <string name="line_quiz">Lines Quiz</string>
+    <string name="zone_quiz">Zones Quiz</string>
+    <string name="title_activity_lines_quiz">LinesQuiz</string>
 </resources>
