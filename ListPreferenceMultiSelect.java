@@ -126,6 +126,7 @@ public class ListPreferenceMultiSelect extends ListPreference {
         String[] vals = parseStoredValue(getValue());
 
         if ( vals != null ) {
+
             List<String> valuesList = Arrays.asList(vals);
             //Log.i(DEBUG_TAG, "vals size is " + vals);
 //        	for ( int j=0; j<vals.length; j++ ) {
@@ -134,12 +135,16 @@ public class ListPreferenceMultiSelect extends ListPreference {
             //mClickedDialogEntryIndices[0] = false;
             int checkedItems = 0;
             for ( int i=0; i<entryValues.length; i++ ) {
+                //Log.i(DEBUG_TAG, i + "");
                 CharSequence entry = entryValues[i];
+                //Log.i(DEBUG_TAG, " valuelist  is " + valuesList);
                 if ( valuesList.contains(entry) ) {
+
                     mClickedDialogEntryIndices[i] = true;
                     checkedItems++;
                 }
             }
+            //Log.i(DEBUG_TAG, checkedItems + " checked items");
             // hard code for now with the check all button set to zero
             if (checkedItems < entryValues.length -1)
                 mClickedDialogEntryIndices[0] = false;

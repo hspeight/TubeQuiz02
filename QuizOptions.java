@@ -1,6 +1,7 @@
 package com.example.hector.tubequiz02;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 //import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +32,8 @@ public class QuizOptions extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent settingsAct = new Intent(QuizOptions.this, PreferencesActivity.class);
+            startActivity(settingsAct);
             return true;
         }
 
